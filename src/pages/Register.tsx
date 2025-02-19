@@ -11,7 +11,6 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { AxiosError } from "axios";
 import { IErrorResponse } from "../interfaces";
-import Counter from "../components/Counter";
 interface IFormInput {
   username: string;
   email: string;
